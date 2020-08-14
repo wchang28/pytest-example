@@ -1,0 +1,28 @@
+// create virtual environment
+python3 -m venv env
+
+// activate venv (Windows)
+env\Scripts\activate
+
+// activate venv (Unix)
+source env/bin/activate
+
+// deactivate venv
+deactivate
+
+// create requirements.txt
+pip freeze > requirements.txt
+
+// install required packages from requirements.txt
+pip install -r requirements.txt
+
+// install pyinstaller to compile python code to executable
+pip install pyinstaller
+
+pyinstaller --onefile -n pytest-example ./main.py
+
+// install pytest unit test package
+pip install pytest
+
+// run the unit test
+pytest -v

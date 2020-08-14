@@ -1,0 +1,16 @@
+{
+  "name": "pytest-example",
+  "version": "1.0.0",
+  "description": "pytest Sample Project",
+  "scripts": {
+    "test": "pytest -v",
+    "prepare-env": "python3 -m venv env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/pytest-example.git"
+  },
+  "keywords": ["python", "pytest"],
+  "author": "Wen Chang",
+  "license": "MIT"
+}
