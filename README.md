@@ -8,4 +8,4 @@ To run the sample, follow the steps below:
 3. install the dependencies:``` pip install -r requirements.txt ```
 4. run the unit test:``` pytest -v ```
 
-See cmds.txt for more details
+See cmds.txt for more details.
